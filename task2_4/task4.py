@@ -21,7 +21,7 @@ for line in file:
     print(num, end='; ')
     if 0 <= num < len(numbers):
         is_right_positions_exist = True
-        mult = mult * numbers[num]
+        mult *= numbers[num]
 
 file.close()
 
