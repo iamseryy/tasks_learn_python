@@ -39,7 +39,7 @@ def get_value(term):
         return term.strip()
 
 
-def sum(pol1, pol2):
+def sum_polynomials(pol1, pol2):
     terms1 = get_terms(pol1)
     terms2 = get_terms(pol2)
 
@@ -48,21 +48,22 @@ def sum(pol1, pol2):
 
     sum_terms = {}
     for i in range((max_key1 if max_key1 > max_key2 else max_key2) + 1):
-        sum_terms[i] = terms1.get(i, 0) + terms2.get(i, 0)
+        sum_value = terms1.get(i, 0) + terms2.get(i, 0)
+        if sum_value != 0:
+            sum_terms[i] = sum_value
 
     return sum_terms
 
 
 def to_str(terms):
     polynomial = ""
-    terms_amount = sorted(terms.keys(), reverse=True)[0]
-    for i in range(terms_amount, -1, -1):
-        polynomial += (" - " if str(terms[i])[0:1] == "-" else (" + " if i < terms_amount else "")) \
-                      + (str(abs(terms[i])) if abs(terms[i]) != 1 else "") \
-                      + ("*" if i > 0 and abs(terms[i]) != 1 else "") \
-                      + ("x**" if i > 1 else ("x" if i == 1 else "")) \
-                      + (str(i) if i > 1 else "")
-
+    terms_keys = sorted(terms.keys(), reverse=True)
+    for key in terms_keys:
+        polynomial += (" - " if str(terms[key])[0:1] == "-" else (" + " if key < terms_keys[0] else "")) \
+                      + (str(abs(terms[key])) if abs(terms[key]) != 1 else "") \
+                      + ("*" if key > 0 and abs(terms[key]) != 1 else "") \
+                      + ("x**" if key > 1 else ("x" if key == 1 else "")) \
+                      + (str(key) if key > 1 else "")
     polynomial += " = 0"
 
     return polynomial
@@ -77,5 +78,5 @@ polynomial2 = file.read()
 file.close()
 
 file = open('task4_5/sum_polynomial.txt', 'w')
-file.write(to_str(sum(polynomial1, polynomial2)))
+file.write(to_str(sum_polynomials(polynomial1, polynomial2)))
 file.close()
