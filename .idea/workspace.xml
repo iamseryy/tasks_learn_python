@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task4_5 is ready">
+    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task4_3 , task4_4 ready">
+      <change afterPath="$PROJECT_DIR$/task5_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task5_1/task1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4_1/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task4_1/task1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4_1/task1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task5_1/task1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +87,9 @@
       <workItem from="1671339841373" duration="11407000" />
       <workItem from="1671370722611" duration="1778000" />
       <workItem from="1671473542942" duration="985000" />
-      <workItem from="1671679347125" duration="4232000" />
+      <workItem from="1671679347125" duration="22496000" />
+      <workItem from="1671891660085" duration="1546000" />
+      <workItem from="1673588135534" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
@@ -130,12 +133,12 @@
       <option name="project" value="LOCAL" />
       <updated>1671739208714</updated>
     </task>
-    <task id="LOCAL-00007" summary="task4_5 is ready">
-      <created>1671887584514</created>
+    <task id="LOCAL-00007" summary="task4_3 , task4_4 ready">
+      <created>1671815235246</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1671887584514</updated>
+      <updated>1671815235246</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -160,10 +163,21 @@
     <MESSAGE value="task3_1 added" />
     <MESSAGE value="task3_5 added" />
     <MESSAGE value="task3_5 ready" />
-    <MESSAGE value="task4_5 is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4_5 is ready" />
+    <MESSAGE value="task4_3 , task4_4 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4_3 , task4_4 ready" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1671891232347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1673589959687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
