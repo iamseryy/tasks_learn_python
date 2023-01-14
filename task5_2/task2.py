@@ -9,7 +9,7 @@
 #
 # b) Подумайте как наделить бота ""интеллектом""
 
-from random import shuffle
+from random import shuffle, randint
 
 
 def get_players(player1, player2):
@@ -26,6 +26,10 @@ def get_bot_player():
     return "bot", bot_turn
 
 
+def get_smart_bot_player():
+    return "smart bot", smart_bot_turn
+
+
 def human_turn(human, remainder, max_amount):
     line = ""
     while not line.isdigit():
@@ -35,13 +39,19 @@ def human_turn(human, remainder, max_amount):
             if 0 < num <= max_amount:
                 return num
             else:
-                print(f"You can take at least zero and no more than {max_amount} candies! Try Again\n")
+                print(f"You can take at least 1 and no more than {max_amount} candies! Try Again\n")
                 line = ""
                 continue
         print("Invalid! Try Again\n")
 
 
 def bot_turn(creature, remainder, max_amount):
+    num = randint(1, max_amount)
+    print(f"{creature} took {num} candies")
+    return num
+
+
+def smart_bot_turn(creature, remainder, max_amount):
     num = remainder % (max_amount + 1)
     if num == 0:
         num = max_amount
@@ -66,13 +76,16 @@ def game(number_candies, max_candies):
         print("\nCandy game\n")
         print("Press 1 to play with a man")
         print("Press 2 to play with a bot")
-        print("Press 3 to Quit\n")
+        print("Press 3 to play with a smart bot")
+        print("Press 4 to Quit\n")
         item = input("Your choice: ")
         if item == '1':
             win = process(get_players(get_human_player(1), get_human_player(2)), number_candies, max_candies)
         elif item == '2':
             win = process(get_players(get_human_player(''), get_bot_player()), number_candies, max_candies)
         elif item == '3':
+            win = process(get_players(get_human_player(''), get_smart_bot_player()), number_candies, max_candies)
+        elif item == '4':
             print("\nBye")
             quit()
         else:
