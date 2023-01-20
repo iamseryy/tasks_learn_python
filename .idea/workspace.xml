@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task5_4 ready">
-      <change afterPath="$PROJECT_DIR$/task6_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6_1/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6_2/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6_3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6_3/task3.py" afterDir="false" />
+    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task6_1 - 6_3 ready">
+      <change afterPath="$PROJECT_DIR$/task7_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/contacts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/export_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/import_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7_1/contacts/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task6_3/task3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task7_1/contacts/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +95,8 @@
       <workItem from="1671679347125" duration="4232000" />
       <workItem from="1671911571839" duration="2512000" />
       <workItem from="1671946587633" duration="6038000" />
-      <workItem from="1673981797448" duration="667000" />
+      <workItem from="1673981797448" duration="1409000" />
+      <workItem from="1674233747467" duration="12552000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673799403176</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="task6_1 - 6_3 ready">
+      <created>1673982612986</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673982612986</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,9 +194,10 @@
     <MESSAGE value="task4_5 is ready" />
     <MESSAGE value="task4_1 in process" />
     <MESSAGE value="task5_4 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="task5_4 ready" />
+    <MESSAGE value="task6_1 - 6_3 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="task6_1 - 6_3 ready" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1673982392064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1674246897399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
