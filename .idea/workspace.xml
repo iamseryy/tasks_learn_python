@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task7_1 - add contact ready">
-      <change afterPath="$PROJECT_DIR$/task7_1/contacts/operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task7_1/contacts/view.py" afterDir="false" />
+    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task7_1 - ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task7_1/contacts/contacts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task7_1/contacts/contacts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task7_1/contacts/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/task7_1/contacts/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task7_1/contacts/export_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/task7_1/contacts/export_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task7_1/contacts/import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/task7_1/contacts/import_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,8 @@
       <workItem from="1673981797448" duration="1409000" />
       <workItem from="1674233747467" duration="12855000" />
       <workItem from="1674321394460" duration="11346000" />
-      <workItem from="1674364065346" duration="8975000" />
+      <workItem from="1674364065346" duration="9365000" />
+      <workItem from="1674415124277" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674247073436</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task7_1 - ready">
+      <created>1674373690975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674373690975</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +207,8 @@
     <MESSAGE value="task5_4 ready" />
     <MESSAGE value="task6_1 - 6_3 ready" />
     <MESSAGE value="task7_1 - add contact ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7_1 - add contact ready" />
+    <MESSAGE value="task7_1 - ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="task7_1 - ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,11 +217,6 @@
           <url>file://$PROJECT_DIR$/task7_1/contacts/view.py</url>
           <line>38</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/task7_1/contacts/controller.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -230,6 +229,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1674373472371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1674415149100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

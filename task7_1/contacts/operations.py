@@ -3,4 +3,4 @@ def sort_by_id(contacts):
 
 
 def sort_by_name(contacts):
-    return sorted(contacts, key=lambda contact: contact.split()[1].strip())
+    return sorted(contacts, key=lambda contact: contact.split(',')[1].strip())
