@@ -19,11 +19,12 @@ def menu_option():
         print("Press 6 to print the student's average grade for the subject")
         print("Press 7 to print the subject average")
         print("Press 8 to print the number of students eligible for the gold medal")
-        print("Press 9 to Quit\n")
+        print("Press 9 to generate 100 students with grades")
+        print("Press 10 to Quit\n")
 
         choice = input("Your choice: ")
 
-        if choice not in ("1", "2", "3", "4", "5", "6", "7", "8", "9"):
+        if choice not in ("1", "2", "3", "4", "5", "6", "7", "8", "9", "10"):
             print("Invalid! Try Again\n")
             continue
 
@@ -57,9 +58,73 @@ def add_subject():
 
 
 def add_grade(students, subjects):
+    id_student = get_student_id(students)
+    if not id_student:
+        return ''
+
+    id_subject = get_subject_id(subjects)
+    if not id_subject:
+        return ''
+
+    while True:
+        grade = input("\nEnter grade or empty line to cancel: ")
+
+        if not grade:
+            return ''
+
+        if not grade.isdigit():
+            print("\nInvalid grade! Try Again\n")
+            continue
+
+        if int(grade) < 1 or int(grade) > 5:
+            print("\nIt's must be five-point scale! Try Again\n")
+            continue
+
+        break
+
+    return [id_student, id_subject, grade]
+
+
+def get_avg_student_grade(students, subjects):
+    id_student = get_student_id(students)
+    if not id_student:
+        return ''
+
+    id_subject = get_subject_id(subjects)
+    if not id_subject:
+        return ''
+
+    return [id_student, id_subject]
+
+
+def get_student_grade(subjects):
+    return get_subject_id(subjects)
+
+
+def get_avg_grade(subjects):
+    return get_subject_id(subjects)
+
+
+def print_students(students):
+    print("\nStudents list:")
+    if students:
+        print('\n'.join([f"{student[1]} {student[2]} (ID: {student[0]})" for student in students]))
+    else:
+        print("Empty")
+
+
+def print_subjects(subjects):
+    print("\nSubjects list:")
+    if subjects:
+        print('\n'.join([f"ID: {subject[0]}; Subject: {subject[1]}" for subject in subjects]))
+    else:
+        print("Empty")
+
+
+def get_student_id(students):
     print_students(students)
     while True:
-        id_student = input("Enter student ID or empty line to cancel: ")
+        id_student = input("\nEnter student ID or empty line to cancel: ")
 
         if not id_student:
             return ''
@@ -73,10 +138,13 @@ def add_grade(students, subjects):
             continue
 
         break
+    return id_student
 
+
+def get_subject_id(subjects):
     print_subjects(subjects)
     while True:
-        id_subject = input("Enter subject ID or empty line to cancel: ")
+        id_subject = input("\nEnter subject ID or empty line to cancel: ")
 
         if not id_subject:
             return ''
@@ -89,32 +157,29 @@ def add_grade(students, subjects):
             print("\nSubject are not exists")
             continue
         break
-
-    while True:
-        grade = input("Enter grade or empty line to cancel: ")
-
-        if not grade:
-            return ''
-
-        if not grade.isdigit():
-            print("\nInvalid grade! Try Again\n")
-            continue
-        break
-
-    return id_student, id_subject, grade
+    return id_subject
 
 
-def print_students(students):
-    print("\nStudents list:")
-    if students:
-        print('\n'.join([f"ID: {student[0]}; Student: {student[1]} {student[2]}" for student in students]))
-    else:
-        print("Empty")
+def print_student_grading_sheet(student, student_grading_sheet):
+    print(f"\nGrading sheet by {student[1]} {student[2]} (ID {student[0]}):")
+    print('\n'.join([f"{service.find_subject_by_id(grading_sheet[1])[1]} - {grading_sheet[2]}" for grading_sheet in
+                     student_grading_sheet]))
 
 
-def print_subjects(subjects):
-    print("\nSubjects list:")
-    if subjects:
-        print('\n'.join([f"ID: {subject[0]}; Subject: {subject[1]}" for subject in subjects]))
-    else:
-        print("Empty")
+def print_avg_student_grade(student_id, subject_id, avg_student_grade):
+    student = service.find_student_by_id(student_id).split(',')
+    subject = service.find_subject_by_id(subject_id)
+    print(f"\nStudent: {student[1]} {student[2]} (ID {student_id})")
+    print(f"Subject: {subject[1]}")
+    print(f"Average grade - {round(avg_student_grade, 2)}")
+
+
+def print_avg_grade(subject_id, avg_student_grade):
+    subject = service.find_subject_by_id(subject_id)
+    print(f"\nSubject: {subject[1]}")
+    print(f"Average grade of school - {round(avg_student_grade, 2)}")
+
+
+def press_enter_to_continue():
+    input("\nPress Enter to continue...")
+

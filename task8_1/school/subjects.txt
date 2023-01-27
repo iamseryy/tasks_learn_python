@@ -1,2 +1,11 @@
-1,Algebra
-2,Drawing
+1,Russian language
+2,literature
+3,mathematics
+4,history
+5,foreign language
+6,physics
+7,chemistry
+8,biology
+9,Social Studies
+10,geography
+11,computer science

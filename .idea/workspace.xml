@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task7_1 - fix sorted by name">
-      <change afterPath="$PROJECT_DIR$/task8_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/grading_sheet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/subjects.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8_1/school/view.py" afterDir="false" />
+    <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task8_1 - add grade sheet">
+      <change afterPath="$PROJECT_DIR$/task8_1/school/last_names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8_1/school/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8_1/school/properties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/grading_sheet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/grading_sheet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/students.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/subjects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/subjects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8_1/school/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "I:/gb/009_Знакомство с языком Python/seminars/tasks/task8_1/school",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/gb/009_Знакомство с языком Python/seminars/tasks/task8_1/school&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\gb\009_Знакомство с языком Python\seminars\tasks\task8_1\school" />
@@ -106,7 +106,8 @@
       <workItem from="1674321394460" duration="11346000" />
       <workItem from="1674364065346" duration="9365000" />
       <workItem from="1674415124277" duration="852000" />
-      <workItem from="1674667144206" duration="11643000" />
+      <workItem from="1674667144206" duration="11739000" />
+      <workItem from="1674843970664" duration="6934000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674415727737</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="task8_1 - add grade sheet">
+      <created>1674679027907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674679027907</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +237,8 @@
     <MESSAGE value="task7_1 - add contact ready" />
     <MESSAGE value="task7_1 - ready" />
     <MESSAGE value="task7_1 - fix sorted by name" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7_1 - fix sorted by name" />
+    <MESSAGE value="task8_1 - add grade sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="task8_1 - add grade sheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,6 +252,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1674678891597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasks$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1674850746095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
