@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task8_1 - add grade sheet">
-      <change afterPath="$PROJECT_DIR$/task9_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9_1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9_2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8_1/school/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8_1/school/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task9_1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +105,9 @@
       <workItem from="1674905437136" duration="619000" />
       <workItem from="1674908380928" duration="861000" />
       <workItem from="1674909272740" duration="56000" />
+      <workItem from="1674909394737" duration="768000" />
+      <workItem from="1674911932074" duration="250000" />
+      <workItem from="1674912198421" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
