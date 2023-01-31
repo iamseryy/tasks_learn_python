@@ -4,18 +4,21 @@ import service
 import properties
 import logging
 
+
 bot = telebot.TeleBot(properties.BOT_TOKEN)
 user_message = ''
 is_game_started = False
 
 
 def start():
-    logging.info("Start bot")
+    logging.info(f" : start bot")
     bot.infinity_polling()
 
 
 @bot.message_handler(commands=['start'])
 def button(message):
+    logging.info(f" : user id {message.chat.id} : username {message.chat.username} : "
+                 f"command {message.html_text}")
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     but_rules = types.KeyboardButton("Правила")
     but_play_bot = types.KeyboardButton("Играть с обычным ботом")
@@ -32,6 +35,9 @@ def button(message):
 def controller(message):
     global is_game_started
     global user_message
+
+    logging.info(f" : user id {message.chat.id} : username {message.chat.username} : "
+                 f"text_message '{message.text}' ")
 
     if message.text == "Правила":
         bot.send_message(message.chat.id, service.get_rules())

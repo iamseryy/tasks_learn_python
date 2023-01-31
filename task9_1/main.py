@@ -1,7 +1,7 @@
 import bot_controller as controller
-import logging
-import properties
+import init
 
-logging.basicConfig(level=logging.INFO, filename=properties.LOG_FILE, filemode="w")
+
+init.setup_logger()
 
 controller.start()
