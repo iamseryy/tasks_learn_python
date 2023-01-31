@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c03c373-2d72-49ca-8b9d-402ac0e24f91" name="Changes" comment="task8_1 - add grade sheet">
+      <change afterPath="$PROJECT_DIR$/task9_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9_1/bot_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9_1/bot_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9_1/properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9_1/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task9_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task9_1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;I:/gb/009_Знакомство с языком Python/seminars/tasks&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "I:/gb/009_Знакомство с языком Python/seminars/tasks/task9_1",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\gb\009_Знакомство с языком Python\seminars\tasks\task9_1" />
       <recent name="I:\gb\009_Знакомство с языком Python\seminars\tasks\venv\Lib\site-packages" />
       <recent name="I:\gb\009_Знакомство с языком Python\seminars\tasks\task8_1\school" />
     </key>
@@ -64,7 +71,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task8_1/school/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task9_1/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +114,7 @@
       <workItem from="1674909394737" duration="768000" />
       <workItem from="1674911932074" duration="250000" />
       <workItem from="1674912198421" duration="593000" />
+      <workItem from="1675133970778" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1671047274930</created>
