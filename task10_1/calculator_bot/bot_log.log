@@ -1,4 +1,3 @@
-[2023-02-04 01:22:29] {I:\gb\009_Знакомство с языком Python\seminars\tasks\task10_1\calculator_bot\controller.py:19} INFO - Start bot
-[2023-02-04 01:22:48] {I:\gb\009_Знакомство с языком Python\seminars\tasks\task10_1\calculator_bot\controller.py:37} INFO -  : user id 160204679 : user full_name Serуу : text_message '/start' 
-[2023-02-04 01:23:34] {I:\gb\009_Знакомство с языком Python\seminars\tasks\venv\Lib\site-packages\telebot\__init__.py:966} ERROR - Infinity polling: polling exited
-[2023-02-04 01:23:34] {I:\gb\009_Знакомство с языком Python\seminars\tasks\venv\Lib\site-packages\telebot\__init__.py:968} ERROR - Break infinity polling
+[2023-02-04 14:48:09] {I:\gb\009_Знакомство с языком Python\seminars\tasks\task10_1\calculator_bot\controller.py:19} INFO - Start bot
+[2023-02-04 14:48:15] {I:\gb\009_Знакомство с языком Python\seminars\tasks\venv\Lib\site-packages\telebot\__init__.py:966} ERROR - Infinity polling: polling exited
+[2023-02-04 14:48:15] {I:\gb\009_Знакомство с языком Python\seminars\tasks\venv\Lib\site-packages\telebot\__init__.py:968} ERROR - Break infinity polling
